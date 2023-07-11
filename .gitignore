@@ -1,0 +1,13 @@
+node_modules/
+ignore/
+patched/
+fz-builder-nodejs-macos
+fz-builder-nodejs-linux
+fz-builder-nodejs-win.exe
+excludedPatchesList.json
+includedPatchesList.json
+dist/
+patched-cache/
+index-old.js
+options.toml
+settings.json

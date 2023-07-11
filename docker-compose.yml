@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fz-builder:
+    container_name: fz-builder
+    restart: unless-stopped
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./patched/:/app/fz-builder/patched/
+    ports:
+      - 8000:8000
